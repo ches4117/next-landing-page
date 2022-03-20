@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Card from "../../common/Card";
 
 const Intro: NextPage = () => {
   return (
     <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
-      <div className="lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+      <Card>
         <div className="p-4 md:p-12 text-center lg:text-left">
           <h1 className="text-3xl font-bold pt-8 lg:pt-0">Hung Lin Chang</h1>
           <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
@@ -51,7 +52,7 @@ const Intro: NextPage = () => {
             </a>
           </div>
         </div>
-      </div>
+      </Card>
       <div className="lg:w-2/5 sm:flex sm:items-center sm:max-w-lg sm:mx-auto ">
         <Image
           width={2000}
