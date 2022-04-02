@@ -4,7 +4,7 @@ import Card from "../../common/Card";
 
 const Intro: NextPage = () => {
   return (
-    <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+    <div className="flex">
       <Card>
         <div className="p-4 md:p-12 text-center lg:text-left">
           <h1 className="text-3xl font-bold pt-8 lg:pt-0">Hung Lin Chang</h1>
